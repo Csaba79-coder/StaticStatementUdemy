@@ -1,0 +1,2 @@
+# StaticStatementUdemy
+Static statement / keyword
