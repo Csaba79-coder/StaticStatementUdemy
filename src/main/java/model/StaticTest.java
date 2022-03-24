@@ -16,4 +16,12 @@ public class StaticTest {
     public String getName() {
         return name;
     }
+
+    public static void setNumInstances(int numInstances) {
+        StaticTest.numInstances = numInstances;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
