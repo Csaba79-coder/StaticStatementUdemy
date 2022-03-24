@@ -15,6 +15,8 @@ public class DataLoader {
         StaticTest thirdInstance = new StaticTest("3rd instance");
         System.out.println(thirdInstance.getName() + " is instance number " + StaticTest.getNumInstances());
 
+        // running Tim's program from command line as follows, mine was renamed!
+        // java com.company._static.Main
         int answer = MultiplierStatic.multiply(6);
         System.out.println("The answer is " + answer);
         System.out.println("Multiplier is " + MultiplierStatic.multiplier);
