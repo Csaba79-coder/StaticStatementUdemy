@@ -1,0 +1,7 @@
+= Good to know about static
+
+If it is static, it is only ever one copy of the variable in the memory!
+
+All instances of the class share that one class variable!
+
+Static methods and fields belongs to the class, not to instances of the class, and as a result, can be called by referencing class name, rather than a class instance!
