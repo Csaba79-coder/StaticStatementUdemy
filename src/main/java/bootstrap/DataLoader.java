@@ -5,8 +5,6 @@ import model.StaticTest;
 
 public class DataLoader {
 
-
-
     public void load() {
         StaticTest firstInstance = new StaticTest("1st Instance");
 //      System.out.println(firstInstance.getName() + " is instance number " + StaticTest.getNumInstances());
