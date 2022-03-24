@@ -18,8 +18,5 @@ public class DataLoader {
         int answer = MultiplierStatic.multiply(6);
         System.out.println("The answer is " + answer);
         System.out.println("Multiplier is " + MultiplierStatic.multiplier);
-
     }
-
-
 }
